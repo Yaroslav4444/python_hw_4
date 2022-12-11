@@ -4,6 +4,6 @@
 Подсказка: использовать функцию range() и генератор.
 """
 my_list = list(range(20, 240))
-"""search for multiples of 20 or 21"""
+"""search for multiples of 20 and 21"""
 
-print([[el for el in range(20, 240) if el % 20 == 0 or el % 21 == 0]])
+print([el for el in range(20, 240) if el % 20 == 0 or el % 21 == 0])
